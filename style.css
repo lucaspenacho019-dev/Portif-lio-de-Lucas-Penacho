@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* Principal */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-size: 15pt;
+    background-color: #000000
+}
+
+.tudo {
+    background-color: #ffffff;
+    margin: 15px 10px;
+}
+
+/* Apresentação */
+
+.apresentacao figcaption {
+    h1 {
+    color: #000000;
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    text-align: center;
+    font-size: 14pt;
+    position: relative;
+    top: 5px;
+    }
+}
+
+.apresentacao figcaption {
+    h2 {
+    color: #4FB5ED;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10pt;
+    position: relative;
+    top: 0px;
+    }
+}
+
+.apresentacao figcaption {
+    p {
+    color: #000000;
+    font-size: 8pt;
+    margin: 10px 28px;
+    position: relative;
+    top: 0px;
+    }
+}
+
+.apresentacao {
+    border-bottom: 1px #4FB5ED solid;
+    margin: 0px 50px;
+}
+
+/* Minha Foto */
+
+figure img.minha-foto {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 5px;
+    border-radius: 100%;
+}
+
+/* Sobre Mim: */
+
+.sobremim h3 {
+    color: #000000;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -5px 50px 0px 0px;
+    position: relative;
+}
+
+.sobremim p {
+    color: #000000;
+    font-size: 8pt;
+    position: relative;
+    top: -25px;
+    margin: -15px 0px;
+    width: 100%;
+}
+
+.h3-sobremim {
+    margin: 15px 50px;
+    border-bottom: 1px #4FB5ED solid;
+}
+
+.p-sobremim {
+    border-bottom: 1px #4FB5ED solid;
+    margin: 50px 50px 0px 50px;
+}
+
+/* Tecnologias */
+
+figure img.Tecnologias {
+    width: 80%;
+    height: 100%;
+    margin: 30px 0px 0px 35px;
+}
+
+figure h3 {
+    color: #000000;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 50px 0px 50px;
+    position: relative;
+    border-bottom: 1px #4FB5ED solid;
+}
+
+/* Contato */
+
+.contato h3 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin: 20px 50px 0px 50px;
+    border-bottom: 1px #4FB5ED solid;
+}
+
+.contato h2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    margin: 5px 50px 0px 50px;
+}
+
+.contato ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contato li {
+    color: #4FB5ED;
+    position: relative;
+    top: 25px;
+    font-size: 13pt;
+}
+
+a {
+    color: #4FB5ED;
+}
